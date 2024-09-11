@@ -1,54 +1,29 @@
-# mohammed
-modulacs3-solution
-module2-solution
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
 
-body {
-    font-family: Arial, sans-serif;
-    margin: 20px;
-    padding: 0;
-}
-
-h1 {
-    text-align: center;
-    font-size: 2em;
-    margin-bottom: 20px;
-}
-
-.container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.section {
-    border: 1px solid black;
-    padding: 20px;
-    margin: 10px;
-    position: relative;
-}
-
-.section-title {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    background-color: yellow;
-    padding: 5px;
-    border: 1px solid black;
-}
-
-.chicken {
-    background-color: #f8d7da;
-}
-
-.beef {
-    background-color: #d1ecf1;
-}
-
-.sushi {
-    background-color: #d4edda;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Layout</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Delicious Food</h1>
+    </header>
+    <div class="container">
+        <section class="section chicken">
+            <div class="section-title">Chicken</div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </section>
+        <section class="section beef">
+            <div class="section-title">Beef</div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </section>
+        <section class="section sushi">
+            <div class="section-title">Sushi</div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </section>
+    </div>
+</body>
+</html>
